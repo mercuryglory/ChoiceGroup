@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.mercury.choicegroup", appContext.getPackageName());
+        assertEquals("com.mercury.choicegroup.test", appContext.getPackageName());
     }
 }
